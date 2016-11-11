@@ -35,7 +35,6 @@ conda search doctr --channel conda-forge
 ```
 
 
-
 About conda-forge
 =================
 
