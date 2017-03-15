@@ -1,4 +1,4 @@
-{% set version = "1.4.1" %}
+{% set version = "1.5.0" %}
 package:
   name: doctr
   version: {{ version }}
@@ -21,6 +21,7 @@ requirements:
     - setuptools
     - requests
     - cryptography
+    - pyyaml
 
   run:
     - python
