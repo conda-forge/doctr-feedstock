@@ -6,7 +6,7 @@ package:
 source:
   fn: doctr-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/d/doctr/doctr-{{ version }}.tar.gz
-  sha256: f4e0c9b5c344192a7dd820105d9a822ff7b39cf69b975c4d4d5f1c932b66a99c
+  sha256: f07b556c95a2513b7d0e95a117211f54b9b1e8a0fc6d07607cc7880ffc20c6b8
 
 build:
   number: 1
