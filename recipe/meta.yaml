@@ -9,7 +9,7 @@ source:
   sha256: f4e0c9b5c344192a7dd820105d9a822ff7b39cf69b975c4d4d5f1c932b66a99c
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - doctr = doctr.__main__:main
   skip: true  # [py<35]
@@ -27,6 +27,7 @@ requirements:
     - python
     - requests
     - cryptography
+    - pyyaml
 
 test:
   imports:
