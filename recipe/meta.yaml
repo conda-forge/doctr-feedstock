@@ -9,6 +9,7 @@ source:
   sha256: 6683b6635441bd89a7cbaac20ea18804ac5e1ee4cba12e534379b2254dd205f9
 
 build:
+  noarch: python
   number: 0
   entry_points:
     - doctr = doctr.__main__:main
