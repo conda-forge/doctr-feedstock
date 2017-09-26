@@ -1,4 +1,4 @@
-{% set version = "1.5.3" %}
+{% set version = "1.6.0" %}
 package:
   name: doctr
   version: {{ version }}
@@ -6,7 +6,7 @@ package:
 source:
   fn: doctr-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/d/doctr/doctr-{{ version }}.tar.gz
-  sha256: 62180b53d791b3c6bd11fefdf173b1d9c78a661457c5dca74370c61de531a210
+  sha256: 6683b6635441bd89a7cbaac20ea18804ac5e1ee4cba12e534379b2254dd205f9
 
 build:
   number: 0
