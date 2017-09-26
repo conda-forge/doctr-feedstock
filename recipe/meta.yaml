@@ -39,15 +39,15 @@ test:
     - doctr deploy --help
 
 about:
-  home: https://gforsyth.github.io/doctr/docs/
+  home: https://drdoctr.github.io/doctr/index.html
   license: MIT
   summary: 'Deploy docs from Travis to GitHub pages.'
 
   description: |
-    A tool for automatically building Sphinx docs on Travis CI, and deploying
+    A tool for automatically building docs on Travis CI, and deploying
     them to GitHub pages.
-  doc_url: https://gforsyth.github.io/doctr/docs/
-  dev_url: https://github.com/gforsyth/doctr
+  doc_url: https://drdoctr.github.io/doctr/index.html
+  dev_url: https://github.com/drdoctr/doctr
 
 extra:
   recipe-maintainers:
