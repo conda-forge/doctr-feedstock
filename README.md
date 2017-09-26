@@ -1,7 +1,7 @@
 About doctr
 ===========
 
-Home: https://gforsyth.github.io/doctr/docs/
+Home: https://drdoctr.github.io/doctr/index.html
 
 Package license: MIT
 
@@ -9,16 +9,14 @@ Feedstock license: BSD 3-Clause
 
 Summary: Deploy docs from Travis to GitHub pages.
 
-A tool for automatically building Sphinx docs on Travis CI, and deploying
+A tool for automatically building docs on Travis CI, and deploying
 them to GitHub pages.
 
 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/doctr-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/doctr-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/doctr-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/doctr-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/doctr-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/doctr-feedstock/branch/master)
+All platforms: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
 
 Current release info
 ====================
@@ -68,6 +66,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
