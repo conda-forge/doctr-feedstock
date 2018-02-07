@@ -1,5 +1,5 @@
-{% set version = "1.7.1" %}
-{% set hash = "afdcdb2626723348008aa7a5d52b4e5015ae72fdda0ca5093cff1437ce25c800" %}
+{% set version = "1.7.2" %}
+{% set hash = "1216858e81f8a58dd184ff1be6844b8b283c77a332e8fad491c26aca7a84991d" %}
 package:
   name: doctr
   version: {{ version }}
