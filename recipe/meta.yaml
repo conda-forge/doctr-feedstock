@@ -1,25 +1,24 @@
 {% set version = "1.7.3" %}
-{% set hash = "33b878c28cf2430818e7f8c2f5705c6954fb331a109d051bad0f2e5855cbb4a4" %}
+
 package:
   name: doctr
   version: {{ version }}
 
 source:
-  fn: doctr-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/d/doctr/doctr-{{ version }}.tar.gz
-  sha256: {{ hash }}
+  sha256: 33b878c28cf2430818e7f8c2f5705c6954fb331a109d051bad0f2e5855cbb4a4
 
 build:
   number: 0
+  skip: true  # [py<35]
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
   entry_points:
     - doctr = doctr.__main__:main
-  skip: true  # [py<35]
-  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
     - requests
     - cryptography
     - pyyaml
