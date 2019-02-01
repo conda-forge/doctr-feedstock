@@ -1,4 +1,4 @@
-{% set version = "1.7.4" %}
+{% set version = "1.8.0" %}
 
 package:
   name: doctr
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/doctr/doctr-{{ version }}.tar.gz
-  sha256: 02baf3c53da2211d12e5dba60a44d937b3758e706127d83f7b4a54c508bfc286
+  sha256: b84495ee7357916364dc3752b5b930d7b534df1ada33d197b5e467ec8e22a360
 
 build:
-  number: 1000
+  number: 0
   skip: true  # [py<35]
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
   entry_points:
