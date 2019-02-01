@@ -11,21 +11,20 @@ source:
 build:
   noarch: python
   number: 0
-  skip: true  # [py<35]
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
   entry_points:
     - doctr = doctr.__main__:main
 
 requirements:
   build:
-    - python
+    - python >= 3.5
     - pip
     - requests
     - cryptography
     - pyyaml
 
   run:
-    - python
+    - python >= 3.5
     - requests
     - cryptography
     - pyyaml
