@@ -20,9 +20,7 @@ them to GitHub pages.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/doctr-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/doctr-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/doctr-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/doctr-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/doctr-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/doctr-feedstock/branch/master)
+All platforms: ![noarch disabled](https://img.shields.io/badge/noarch-disabled-lightgrey.svg)
 
 Current release info
 ====================
