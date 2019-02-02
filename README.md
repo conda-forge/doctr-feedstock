@@ -20,7 +20,8 @@ them to GitHub pages.
 Current build status
 ====================
 
-All platforms: ![noarch disabled](https://img.shields.io/badge/noarch-disabled-lightgrey.svg)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/doctr-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/doctr-feedstock)
 
 Current release info
 ====================
