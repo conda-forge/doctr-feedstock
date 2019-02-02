@@ -17,14 +17,14 @@ build:
 
 requirements:
   build:
-    - python >= 3.5
+    - python >=3.5
     - pip
     - requests
     - cryptography
     - pyyaml
 
   run:
-    - python >= 3.5
+    - python >=3.5
     - requests
     - cryptography
     - pyyaml
